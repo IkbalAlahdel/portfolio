@@ -17,10 +17,22 @@ opacity: 80%;
 }
 .firstpara{
     margin: 30px 250px 30px 250px;
+    border-radius: 5px;
+    box-shadow: #555 inset;
+
+}
+
+.firstpara:hover,
+.firstpara:focus {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+transform: translateY(-0.25em);
+opacity: 100%;
+background-color: darkgray;
+color: black;
 }
 .pic{
     background-color:#336d88;
-   background-image: url('1html\ ‫‬.png');
+   background-image: url('./image\ ‫‬/1html\ ‫‬.png');
    width: 25vw;
    height: 30vh;
    text-align: center;
@@ -39,7 +51,7 @@ opacity: 80%;
 }
 .pic1{
     background-color:#1d1b38;
-       background-image: url('css.png');
+       background-image: url('./image\ ‫‬/css.png');
    width: 25vw;
    height: 30vh;
    text-align: center;
@@ -55,7 +67,7 @@ opacity: 80%;
 }
 .pic2{
     background-color:#336d88;
-       background-image: url('js.png');
+       background-image: url('./image\ ‫‬/js.png');
        background-repeat: no-repeat;
    background-position: center center;
    width: 25vw;
@@ -70,7 +82,7 @@ opacity: 80%;
 
 }.pic3{
     background-color:#1d1b38;
-           background-image: url('php\ \(5\).png');
+           background-image: url('./image\ ‫‬/php\ \(5\).png');
        background-repeat: no-repeat;
    background-position: center center;
    width: 25vw;
@@ -84,7 +96,7 @@ opacity: 80%;
 
 }.pic4{
     background-color: #1d1b38;
-               background-image: url('android\ \(2\).png');
+               background-image: url('./image\ ‫‬/android\ \(2\).png');
        background-repeat: no-repeat;
    background-position: center center;
    width: 25vw;
@@ -99,7 +111,7 @@ opacity: 80%;
 
 }.pic5{
     background-color:#336d88;
-               background-image: url('mysql1.png');
+               background-image: url('./image\ ‫‬/mysql1.png');
            background-repeat: no-repeat;
        background-position: center center;
    width:25vw;
@@ -113,7 +125,7 @@ opacity: 80%;
 
 }.pic6{
     background-color:#1d1b38;
-     background-image: url('csharp1.png');
+     background-image: url('./image\ ‫‬/csharp1.png');
        background-repeat: no-repeat;
    background-position: center center;
    width: 25vw;
@@ -126,7 +138,7 @@ opacity: 80%;
 
 }.pic7{
     background-color: #336d88;
-                   background-image: url('c++.png');
+                   background-image: url('./image\ ‫‬/c++.png');
        background-repeat: no-repeat;
    background-position: center center;
    width: 25vw;
@@ -217,3 +229,19 @@ margin-right: -10px;
     } 
     .ph{
         font-family: 'Fondamento', cursive;    }
+        .social ul{
+            margin-top: 70vh;
+            position: fixed;
+        
+        }
+        
+        .social ul{
+            margin-top: 70vh;
+            position: fixed;
+        
+        }        .social li{
+            background-color: white;
+            display :block;
+                padding: 2px;
+            margin: 2px;
+        }
