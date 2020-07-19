@@ -229,19 +229,17 @@ margin-right: -10px;
     } 
     .ph{
         font-family: 'Fondamento', cursive;    }
-        .social ul{
-            margin-top: 70vh;
-            position: fixed;
-        
-        }
         
         .social ul{
             margin-top: 70vh;
             position: fixed;
+            z-index: 1;
         
         }        .social li{
-            background-color: white;
+            background-color:whitesmoke;
+            opacity: 50%;
+            border-radius: 50%;
             display :block;
-                padding: 2px;
-            margin: 2px;
-        }
+                padding: 1px;
+            margin: 5px;
+ }
